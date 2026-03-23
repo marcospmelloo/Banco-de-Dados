@@ -12,7 +12,7 @@ CREATE TABLE biblioteca01.livro(
 CREATE TABLE biblioteca01.usuario(
 	idusuario SERIAL PRIMARY KEY,
 	nome VARCHAR(100) NOT NULL,
-	cpf VARCHAR(14) UNIQUE,
+	cpf VARCHAR(11) UNIQUE,
 	email VARCHAR(100) UNIQUE,
 	telefone VARCHAR(20) NOT NULL,
 	endereco VARCHAR(250) NOT NULL
@@ -30,4 +30,4 @@ CREATE TABLE biblioteca01.emprestimo(
 );
 
 ALTER TABLE biblioteca01.livro
-	ADD COLUMN editora VARCHAR(100) NOT NULL;
+	ADD COLUMN editora VARCHAR(100);
