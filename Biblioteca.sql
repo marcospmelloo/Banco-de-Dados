@@ -23,7 +23,7 @@ CREATE TYPE biblioteca01.status_livro AS ENUM ('emprestado', 'devolvido');
 CREATE TABLE biblioteca01.emprestimo(
 	idemprestimo SERIAL PRIMARY KEY,
 	data_emprestimo DATE NOT NULL,
-	data_devolucao DATE NOT NULL,
+	data_devolucao DATE,
 	status biblioteca01.status_livro NOT NULL,
 	idusuario INT REFERENCES biblioteca01.usuario(idusuario),
 	idlivro INT REFERENCES biblioteca01.livro(idlivro)
