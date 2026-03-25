@@ -76,7 +76,7 @@ INSERT INTO
 	biblioteca01.emprestimo (data_emprestimo, data_devolucao, status, idusuario, idlivro)
 VALUES
 	('2026/03/01', '2026/03/10', 'devolvido', 1, 8),
-	('2026/03/05', '2026/03/15', 'emprestado', 4, 10),
+	('2026/03/05', NULL, 'emprestado', 4, 10),
 	('2026/03/10', '2026/03/20', 'devolvido', 3, 1);
 
 SELECT idusuario FROM biblioteca01.emprestimo;
