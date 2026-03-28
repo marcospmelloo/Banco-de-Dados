@@ -1,4 +1,4 @@
------Lista 6-----
+--Lista 6--
 
 -- 1. Crie um índice na tabela livro para melhorar a busca pelo campo titulo. 
 
