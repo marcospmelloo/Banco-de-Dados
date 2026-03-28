@@ -1,5 +1,5 @@
--- CREATE DATABASE biblioteca;
--- CREATE SCHEMA  biblioteca01;
+CREATE DATABASE biblioteca;
+CREATE SCHEMA  biblioteca01;
 CREATE TABLE biblioteca01.livro(
 	idlivro SERIAL PRIMARY KEY,
 	titulo VARCHAR(100) NOT NULL,
