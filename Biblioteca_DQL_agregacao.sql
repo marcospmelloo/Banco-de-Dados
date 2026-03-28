@@ -1,4 +1,4 @@
------Lista 5 - Funções de agregação e agrupamento-----
+--Lista 5 - Funções de agregação e agrupamento--
 
 -- 1. Conte quantos livros estão cadastrados na biblioteca usando COUNT. 
 
